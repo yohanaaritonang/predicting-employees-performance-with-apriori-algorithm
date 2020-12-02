@@ -45,10 +45,10 @@ Tahap perencanaan yang dilakukan untuk mencapai tujuan data mining dan mencapai 
 Tabel 1. Jadwal Pelaksanaan Proyek
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-| Tahapan	                | Waktu	    | Sumber daya yang dibutuhkan     |        	Kegiatan	                                | Ketergantungan                            |
+ Tahapan	                | Waktu	    | Sumber daya yang dibutuhkan     |        	Kegiatan	                                | Ketergantungan                            
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-| Bussiness Understanding	|  3 hari	  |  Semua analysts	                |    Menentukan tujuan utama bisnis, melakukan      |  Perkembangan penerapan konsep            |
+ Bussiness Understanding	  3 hari	    Semua analysts	                    Menentukan tujuan utama bisnis, melakukan        Perkembangan penerapan konsep            
 
 |                         |           |                                 |    penilaian terhadap situasi, menentukan tujuan  |  data mining                              |
 
@@ -83,6 +83,8 @@ Tabel 1. Jadwal Pelaksanaan Proyek
 |                         |           |  beberapa database analyst time	|     Maintenance Plan dan meninjau proyek 	        |  perkembangan penerapan konsep data mining|
 
 |                         |           |                                 |                                                   |                                           |
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 Dalam pelaksanaan proyek dalam penelitian ini, diperlukan tools data mining yang mendukung metode untuk berbagai tahapan proses. Tools dan teknik yang digunakan dapat mempengaruhi keseluruhan proyek. Tools yang digunakan dalam mengerjakan proyek ini adalah python. Python adalah bahasa pemrograman berorientasi objek yang digunakan dalam pengembangan perangkat lunak maupun dalam analisis dan data science. Python memiliki berbagai library yang menyediakan fungsi untuk melakukan analisis data, memproses data, memvisualisasikan data, dll.
 Python menyediakan library seperti scikit-learn, Keras, TensorFlow untuk membantu dalam pembuatan model data mining dengan cepat. Selain itu, terdapat juga library yang dapat digunakan untuk membagi dataset menjadi data training dan data test, misalnya menggunakan cross-validation. Metode atau algoritma yang akan digunakan dalam proyek ini adalah algoritma Apriori. Apriori merupakan algoritma yang menemukan frequent itemset (memenuhi minimum support) yang kemudian akan di-generate untuk mendapatkan rule yang memenuhi minimum confidence dari frequent itemset sebelumnya. Dalam pengimplementasian model dengan algoritma Apriori akan menggunakan library Apriori yang telah disediakan python.
