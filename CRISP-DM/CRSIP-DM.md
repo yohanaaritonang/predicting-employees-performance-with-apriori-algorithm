@@ -43,6 +43,7 @@ Berdasarkan penelitian-penelitian Association Rule Mining tersebut, algoritma Ap
 
 Tahap perencanaan yang dilakukan untuk mencapai tujuan data mining dan mencapai tujuan bisnis pada penelitian “Predicting Employee’s Performance with Apriori Algorithm” ini adalah sebagai berikut:
 Tabel 1. Jadwal Pelaksanaan Proyek
+
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tahapan	                | Waktu	    | Sumber daya yang dibutuhkan     |        	Kegiatan	                                | Ketergantungan                            |
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -64,7 +65,7 @@ Tabel 1. Jadwal Pelaksanaan Proyek
 | Deployment	            |  1 minggu |	 Data mining consultant,        |    Membuat plan deployment, Monitoring and        |  Ketidakmampuan untuk menerapkan hasil,   |
 |                         |           |  beberapa database analyst time	|     Maintenance Plan dan meninjau proyek 	        |  perkembangan penerapan konsep data mining|
 |                         |           |                                 |                                                   |                                           |
--------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 Dalam pelaksanaan proyek dalam penelitian ini, diperlukan tools data mining yang mendukung metode untuk berbagai tahapan proses. Tools dan teknik yang digunakan dapat mempengaruhi keseluruhan proyek. Tools yang digunakan dalam mengerjakan proyek ini adalah python. Python adalah bahasa pemrograman berorientasi objek yang digunakan dalam pengembangan perangkat lunak maupun dalam analisis dan data science. Python memiliki berbagai library yang menyediakan fungsi untuk melakukan analisis data, memproses data, memvisualisasikan data, dll.
 Python menyediakan library seperti scikit-learn, Keras, TensorFlow untuk membantu dalam pembuatan model data mining dengan cepat. Selain itu, terdapat juga library yang dapat digunakan untuk membagi dataset menjadi data training dan data test, misalnya menggunakan cross-validation. Metode atau algoritma yang akan digunakan dalam proyek ini adalah algoritma Apriori. Apriori merupakan algoritma yang menemukan frequent itemset (memenuhi minimum support) yang kemudian akan di-generate untuk mendapatkan rule yang memenuhi minimum confidence dari frequent itemset sebelumnya. Dalam pengimplementasian model dengan algoritma Apriori akan menggunakan library Apriori yang telah disediakan python.
 
@@ -81,6 +82,7 @@ Hal pertama yang dilakukan pada tahap data understanding adalah pengumpulan data
 
 Dataset yang digunakan untuk memprediksi kinerja dari karyawan menggunakan algoritma apriori adalah predicting-employee-performance dataset. Dataset ini berisi 14 atribut atau variabel dan memuat 54808 record. Dataset yang akan dianalisis pada proyek ini terdiri dari 8 atribut nominal, 8 atribut ordinal, 3 atribut binary, dan 9 atribut numerik. Berikut tabel untuk menjelaskan setiap atributnya. 
 
+
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Nama atribut (variabel)	  |  Tipe atribut	      |    Deskripsi                                                                                                |
 -----------------------------------------------------------------------------------------------------------------------------------------------------------------
@@ -93,7 +95,7 @@ Dataset yang digunakan untuk memprediksi kinerja dari karyawan menggunakan algor
 | no_of_trainings	          |  Numerik	          |    Total jumlah pelatihan yang diselesaikan pada tahun sebelumnya (seperti soft kill, technical skills, dll)|
 | age	                      |  Nominal	          |    Usia karyawan                                                                                            |
 | rating	                  |  Ordinal	          |    Peringkat karyawan                                                                                       |
-|                           |                     |                                                                                                             |                 -----------------------------------------------------------------------------------------------------------------------------------------------------------------                                                                        
+|                           |                     |                                                                                                             |                                                                                      
 2.3 Explore Data
 
 Ekploratory Data Analysis (EDA) diperlukan sebagai sebuah pendekatan dalam menganalisis dataset untuk meringkas karakteristik utama dataset. Biasanya dilakukan dengan menggunakan metode visual. EDA digunakan untuk memahami data, mendapatkan konteks data, memahami variabel dan hubungan di antara variabel, dan merumuskan hipotesis yang berguna dalam membangun model prediksi. Atribut atau fitur pada dataset tidak semua diperlukan dalam mengananalisis. Fitur atau atribut yang digunakan merupakan atribut yang relevan dan sesuai dengan tujuan proyek yaitu fitur yang berpengaruh pada kinerja karyawan serta faktor-faktor lainnya yang dapat meningkatkan kinerja karyawan. Variabel yang relevan terkait kinerja karyawan pada proyek ini adalah variabel performance_rating dan hubungannya dengan variabel lain yang relevan dalam dataset akan dipelajari secara mendalam. Terdapat beberapa variabel terkait yang diprediksi berpengaruh terhadap kinerja dari karyawan. Hipotesis-hipotesis tersebut dirumuskan sebagai berikut:
@@ -118,12 +120,19 @@ b.	Format tipe data pada atribut “rating” dalam bentuk integer dan “is_pro
 Referensi
 
 [1]	Q. A. Al-Radaideh and E. Al Nagi, “Using Data Mining Techniques to Build a Classification Model for Predicting Employees Performance,” Int. J. Adv. Comput. Sci. Appl., vol. 3, no. 2, 2012.
+
 [2]	M. A. KAREEM and I. J. HUSSEIN, “The Impact of Human Resource Development on Employee Performance and Organizational Effectiveness,” Manag. Dyn. Knowl. Econ., vol. 7, no. 3, pp. 307–322, 2019.
+
 [3]	H. Jiawei, M. Kamber, and P. Jian, Data mining: Data mining concepts and techniques. 2014.
+
 [4]	D. T. Larose, Discovering Knowledge in Data: An Introduction to Data Mining: Second Edition, vol. 9780470908. 2014.
+
 [5]	N. Ketui, W. Wisomka, and K. Homjun, “Association Rule Mining with Permutation for Estimating Students Performance and Its Smart Education System,” J. Comput., vol. 30, no. 2, pp. 93–102, 2019.
+
 [6]	B. S. Hasugian, “Penerapan Metode Association Rule Untuk Menganalisa Pola Pemakaian Bahan Kimia Di Laboratorium Menggunakan Algoritma FP-Growth (Studi Kasus di Laboratorium Kimia PT. PLN (Persero) Sektor Pembangkitan Belawan Medan),” Algoritm. J. Ilmu Komput. dan Inform., vol. 3, no. 2, pp. 56–69, 2019.
+
 [7]	N. R. Ardani and N. Fitriana, “Sistem Rekomendasi Pemesanan Sparepart Dengan Algoritma FP-Growth,” Semin. Nas. Apl. Teknol. Inf. Dan Multimed., vol. 5, no. 1, pp. 6–7, 2016.
+
 [8]	M. Afdal and M. Rosadi, “PENERAPAN ASSOCIATION RULE MINING UNTUK ANALISIS PENEMPATAN TATA LETAK BUKU DI PERPUSTAKAAN MENGGUNAKAN ALGORITMA APRIORI,” J. Ilm. Rekayasa dan Manaj. Sist. Inf., vol. 5, no. 1, pp. 99–108, 2019.
 
 
