@@ -45,14 +45,14 @@ Tahap perencanaan yang dilakukan untuk mencapai tujuan data mining dan mencapai 
 Tabel 1. Jadwal Pelaksanaan Proyek
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- Tahapan	                | Waktu	    | Sumber daya yang dibutuhkan     |        	Kegiatan	                                | Ketergantungan                            
+ Tahapan	                 - Waktu	    - Sumber daya yang dibutuhkan      -      	Kegiatan	                                    - Ketergantungan                            
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
- Bussiness Understanding	  3 hari	    Semua analysts	                    Menentukan tujuan utama bisnis, melakukan        Perkembangan penerapan konsep            
+ Bussiness Understanding  -3 hari	    -   Semua analysts	                -    Menentukan tujuan utama bisnis, melakukan        - Perkembangan penerapan konsep            
 
-|                         |           |                                 |    penilaian terhadap situasi, menentukan tujuan  |  data mining                              |
+                                                                              penilaian terhadap situasi, menentukan tujuan      data mining                              
 
-|                         |           |                                 |    data mining, dan membuat project plan.         |                                           |
+                                                                              data mining, dan membuat project plan.                                                    
 
 | Data understanding	    |  4 hari	  |  Semua analysts	                |    Mengumpulkan data yang akan digunakan,         |  Masalah data dan teknologi               |
 
