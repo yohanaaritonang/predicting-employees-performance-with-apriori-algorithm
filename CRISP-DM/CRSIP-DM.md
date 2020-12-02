@@ -47,23 +47,41 @@ Tabel 1. Jadwal Pelaksanaan Proyek
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tahapan	                | Waktu	    | Sumber daya yang dibutuhkan     |        	Kegiatan	                                | Ketergantungan                            |
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 | Bussiness Understanding	|  3 hari	  |  Semua analysts	                |    Menentukan tujuan utama bisnis, melakukan      |  Perkembangan penerapan konsep            |
+
 |                         |           |                                 |    penilaian terhadap situasi, menentukan tujuan  |  data mining                              |
+
 |                         |           |                                 |    data mining, dan membuat project plan.         |                                           |
+
 | Data understanding	    |  4 hari	  |  Semua analysts	                |    Mengumpulkan data yang akan digunakan,         |  Masalah data dan teknologi               |
+
 |                         |           |                                 |    mendeskripsikan data, melakukan eksplorasi     |                                           |
+
 |                         |           |                                 |    data,dan memverifikasi kualitas data.	        |                                           |
+
 | Data preparation	      |  2 minggu |	 Data mining consultant,        |    Memilih data yang akan digunakan, membersihkan |  Masalah data dan teknologi               |
+
 |                         |           |  beberapa database analyst time |	   data dari noise atau outlier, membangun data,  |                                           |
+
 |                         |           |                                 |    menggabungkan data, dan membuat format data.   |                                           |
+
 | Modelling	              |  1 minggu |	 Data mining consultant,        |    Memilih teknik pemodelan, membuat Test Design, |  Ketidakmampuan menemukan model yang tepat|
+
 |                         |           |  beberapa database analyst time	|    membangun model, dan menilai model	            |                                           |
+
 | Evaluation	            |  3 hari	  |  Semua analysts	                |    Mengevaluasi hasil, meninjau proses, dan       |  Ketidakmampuan untuk menerapkan hasil,   |
+
 |                         |           |                                 |    menentukan  tahapan selanjutnya	              |  terjadi kesalahan pada proses pengerjaan |     
+
 |                         |           |                                 |                                                   |  proyek, perkembangan penerapan konsep    |
+
 |                         |           |                                 |                                                   |  data mining                              |
+
 | Deployment	            |  1 minggu |	 Data mining consultant,        |    Membuat plan deployment, Monitoring and        |  Ketidakmampuan untuk menerapkan hasil,   |
+
 |                         |           |  beberapa database analyst time	|     Maintenance Plan dan meninjau proyek 	        |  perkembangan penerapan konsep data mining|
+
 |                         |           |                                 |                                                   |                                           |
 
 Dalam pelaksanaan proyek dalam penelitian ini, diperlukan tools data mining yang mendukung metode untuk berbagai tahapan proses. Tools dan teknik yang digunakan dapat mempengaruhi keseluruhan proyek. Tools yang digunakan dalam mengerjakan proyek ini adalah python. Python adalah bahasa pemrograman berorientasi objek yang digunakan dalam pengembangan perangkat lunak maupun dalam analisis dan data science. Python memiliki berbagai library yang menyediakan fungsi untuk melakukan analisis data, memproses data, memvisualisasikan data, dll.
